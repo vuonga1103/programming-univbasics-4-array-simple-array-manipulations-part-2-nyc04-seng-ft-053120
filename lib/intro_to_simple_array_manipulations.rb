@@ -2,4 +2,6 @@ def using_concat(arr1, arr2)
   arr1.concat(arr2)
 end
 
-p using_concat([1,2,3], [4,5])
+def using_insert(arr, elem)
+  arr.insert(elem, 4)
+end
